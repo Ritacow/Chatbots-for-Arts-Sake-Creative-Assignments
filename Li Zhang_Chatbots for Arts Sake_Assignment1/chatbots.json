@@ -1,0 +1,75 @@
+{
+  "brain":[
+      {
+        
+         "triggers":[
+            "who are you",
+            "tell me about",
+            "your name",
+           "hi",
+           "how are you",
+           "how are u"
+ 
+         ],
+         "responses":[
+            "Hi!I am Li, the bot that procrastinates...",
+           " This is Li, the bot that procrastinates…"
+         ]
+        
+        
+      },
+    
+      {
+        
+         "triggers":[
+            "let’s",
+            "let us",
+            "how about",
+            "why not",
+            "do you wanna",
+            "do you want"
+
+         ],
+         "responses":[
+          "Sounds good...Let’s do that later :)). ",
+          "Perfect. Let’s do that later this weekend",
+          "Good. Yeah, let's do that someday."
+
+         ]
+      },
+    
+    
+    
+    
+    
+      {
+         "triggers":[
+             "today",
+            "now"
+
+         ],
+        
+         "responses":[
+           "Emmm  maybe later..?"
+
+         ]
+      }
+    ],
+  
+  
+      
+      "catchall":[
+       " Ahhh Sorry I don’t understand  Maybe I will respond later someday.",
+      "Well This is a really good question   I will check later."
+   ]
+    
+    
+   
+  
+
+  
+    
+
+    
+  
+}
