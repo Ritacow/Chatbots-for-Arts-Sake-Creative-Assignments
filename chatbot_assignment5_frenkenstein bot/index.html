@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+
+     <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+
+
+<div class="circuit" style="position: absolute; left:300px; top:50px;" >
+    <img id="layer1" src="assets/circuit.svg" alt="noneimage" z-index: 30>
+</div>
+
+<div style="position: absolute; left: 1000px; top: 400px;">
+</div>
+
+<div class="zukerberg" style="position: absolute; left:570px; top:460px;">
+    <img src="assets/zukerberg.jpeg" alt="" ;z-index: 20; width="100" height="100">
+    <p>Mark Zukerberg</p>
+</div>
+
+<div class="hiro" style="position: absolute; left:765px; top:160px;">
+    <img src="assets/hiro.jpeg" alt="hiro"; z-index: 20; width = "100",height = "100">
+    <p>Hiro Protagonist</p>
+</div>
+
+
+<div class="button" style="position: absolute; left:740px; top:468px;">
+  <a href='https://chill-humble-fridge.glitch.me/chatbot_creative_assignment5_2022_03_30_22_40_57/'> <button type="button"> <img src="assets/switch.png" height ="80"; width="100" /></button></a>
+</div>
+
+
+
+
+
+<script>
+   function playsound(){
+      alert("You Clicked me");
+      let ding = new Audio('electricity.mp3');
+      ding.play();
+   }
+</script>
+
+  </body>
+</html>
